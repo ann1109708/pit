@@ -76,8 +76,8 @@ class Bullet(GameSprite):
         if self.rect.x > win_width+10:
             self.kill()
 
-win_width = 700
-win_height = 500 
+win_width = 1000
+win_height = 700 
 display.set_caption('maze')
 window = display.set_mode((win_width, win_height))
 back = (119,210,223)
