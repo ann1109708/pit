@@ -110,7 +110,7 @@ finish = False
 
 while run: 
     
-    time.delay(50)
+    time.delay(70)
 
 
     for e in event.get():
